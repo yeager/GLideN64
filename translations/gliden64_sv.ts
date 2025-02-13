@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="sv_SE">
-    <extra-po-header-language>sv</extra-po-header-language>
-    <extra-po-header-language_team></extra-po-header-language_team>
-    <extra-po-header-last_translator>Daniel Nylander &lt;github@danielnylander.se&gt;</extra-po-header-last_translator>
-    <extra-po-header-po_revision_date></extra-po-header-po_revision_date>
-    <extra-po-header-pot_creation_date></extra-po-header-pot_creation_date>
-    <extra-po-header-project_id_version></extra-po-header-project_id_version>
-    <extra-po-header-x_generator>Poedit 3.5</extra-po-header-x_generator>
-    <extra-po-headers>Project-Id-Version,POT-Creation-Date,PO-Revision-Date,Last-Translator,Language-Team,Language,MIME-Version,Content-Type,Content-Transfer-Encoding,Plural-Forms,X-Language,X-Qt-Contexts,X-Generator</extra-po-headers>
 <context>
     <name>AboutDialog</name>
     <message>
@@ -199,7 +191,7 @@
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="252"/>
         <source>When enabled, the image is cropped by values specified in N64 pixels. Useful to remove black borders in some games.</source>
-        <translation>När den är aktiverad beskärs bilden med värden som anges i N64-pixlar. Användbart för att ta bort svarta kanter i vissa spel.</translation>
+        <translation>När den är aktiverad beskärs bilden med värden som anges i N64-bildpunkter. Användbart för att ta bort svarta kanter i vissa spel.</translation>
     </message>
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="273"/>
@@ -220,7 +212,7 @@
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="408"/>
         <source>Anti-aliasing</source>
-        <translation>Antialiasing</translation>
+        <translation>Kantutjämning</translation>
     </message>
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="417"/>
@@ -230,17 +222,17 @@
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="438"/>
         <source>No anti-aliasing</source>
-        <translation>Ingen antialiasing</translation>
+        <translation>Ingen kantutjämning</translation>
     </message>
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="445"/>
         <source>Fast approximate anti-aliasing (FXAA)</source>
-        <translation>Snabb approximativ anti-aliasing (FXAA)</translation>
+        <translation>Snabb approximativ kantutjämning (FXAA)</translation>
     </message>
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="452"/>
         <source>Multisample anti-aliasing (MSAA):</source>
-        <translation>Multisample anti-aliasing (MSAA):</translation>
+        <translation>Multisample kantutjämning (MSAA):</translation>
     </message>
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="485"/>
@@ -258,7 +250,7 @@
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="636"/>
         <source>Multisample anti-aliasing is not compatible with &lt;a href=&quot;#n64DepthCompare&quot;&gt;N64-style depth compare&lt;/a&gt;.</source>
-        <translation>Multisample anti-aliasing är inte kompatibel med &lt;a href=&quot;#n64DepthCompare&quot;&gt;N64-liknande djupjämförelse&lt;/a&gt;.</translation>
+        <translation>Multisample kantutjämning är inte kompatibel med &lt;a href=&quot;#n64DepthCompare&quot;&gt;N64-liknande djupjämförelse&lt;/a&gt;.</translation>
     </message>
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="658"/>
@@ -345,17 +337,17 @@
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="1104"/>
         <source>Enable per-pixel lighting (better quality, HLE only)</source>
-        <translation>Aktivera per-pixel-belysning (bättre kvalitet, endast HLE)</translation>
+        <translation>Aktivera per-bildpunkt-belysning (bättre kvalitet, endast HLE)</translation>
     </message>
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="1111"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Enable pixel coverage calculation. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;Enables approximated pixel coverage calculation. N64 uses pixel coverage for anti-aliasing and in some special blending modes. Some games have wire-frame mode aka &apos;pen and ink&apos; mode. This mode also needs pixel coverage calculated. &lt;/p&gt;&lt;p&gt;[Recommended: Checked, unless performance is hurt]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Aktivera beräkning av pixeltäckning. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;Aktiverar approximerad beräkning av pixeltäckning. N64 använder pixeltäckning för anti-aliasing och i vissa speciella blandningslägen. Vissa spel har wire-frame-läge, även kallat &quot;penna och bläck&quot;-läge. Detta läge behöver också pixeltäckning beräknad. &lt;/p&gt;&lt;p&gt;[Rekommenderas: Markerad, om inte prestandan påverkas negativt]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Aktivera beräkning av bildpunktstäckning. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;Aktiverar approximerad beräkning av bildpunktstäckning. N64 använder bildpunktstäckning för kantutjämning och i vissa speciella blandningslägen. Vissa spel har wire-frame-läge, även kallat &quot;penna och bläck&quot;-läge. Detta läge behöver också bildpunktstäckning beräknad. &lt;/p&gt;&lt;p&gt;[Rekommenderas: Markerad, om inte prestandan påverkas negativt]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="1114"/>
         <source>Enable pixel coverage calculation</source>
-        <translation>Aktivera beräkning av pixeltäckning</translation>
+        <translation>Aktivera beräkning av bildpunktstäckning</translation>
     </message>
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="1121"/>
@@ -547,7 +539,7 @@
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="1541"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;In some games the coordinates for parts of 2D elements are not aligned: there is a half-pixel split between adjacent elements. When rendering at the N64&apos;s original resolution it isn&apos;t visible, but when the image is scaled up it results in black lines. This option attempts to connect these 2D elements.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;For adjacent 2D elements&lt;/span&gt;: Apply the correction only for polygons that need it. Select this option for games that have issues with black lines.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Always&lt;/span&gt;: Apply the correction for every 2D element. Select this option when &lt;span style=&quot; font-weight:600;&quot;&gt;For adjacent 2D elements&lt;/span&gt; doesn&apos;t help.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Never&lt;/span&gt;: Don&apos;t attempt to correct black lines between 2D elements.&lt;/p&gt;&lt;p&gt;[Recommended: &lt;span style=&quot; font-style:italic;&quot;&gt;Game dependent, mostly Never&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;I vissa spel är koordinaterna för delar av 2D-element inte i linje: det finns en halvpixel mellan intilliggande element. Vid rendering i N64:s originalupplösning syns det inte, men när bilden skalas upp blir det svarta linjer. Detta alternativ försöker koppla samman dessa 2D-element.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;För intilliggande 2D-element&lt;/span&gt;: Tillämpa korrigeringen endast för polygoner som behöver den. Välj det här alternativet för spel som har problem med svarta linjer.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Alltid&lt;/span&gt;: Tillämpa korrigeringen för varje 2D-element. Välj det här alternativet när det inte hjälper med &lt;span style=&quot; font-weight:600;&quot;&gt;För intilliggande 2D-element&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Aldrig&lt;/span&gt;: Försök inte korrigera svarta linjer mellan 2D-element.&lt;/p&gt;&lt;p&gt;[Rekommenderas: &lt;span style=&quot; font-style:italic;&quot;&gt;Spelberoende, oftast Aldrig&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;I vissa spel är koordinaterna för delar av 2D-element inte i linje: det finns en halvbildpunkt mellan intilliggande element. Vid rendering i N64:s originalupplösning syns det inte, men när bilden skalas upp blir det svarta linjer. Detta alternativ försöker koppla samman dessa 2D-element.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;För intilliggande 2D-element&lt;/span&gt;: Tillämpa korrigeringen endast för polygoner som behöver den. Välj det här alternativet för spel som har problem med svarta linjer.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Alltid&lt;/span&gt;: Tillämpa korrigeringen för varje 2D-element. Välj det här alternativet när det inte hjälper med &lt;span style=&quot; font-weight:600;&quot;&gt;För intilliggande 2D-element&lt;/span&gt;.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Aldrig&lt;/span&gt;: Försök inte korrigera svarta linjer mellan 2D-element.&lt;/p&gt;&lt;p&gt;[Rekommenderas: &lt;span style=&quot; font-style:italic;&quot;&gt;Spelberoende, oftast Aldrig&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="1562"/>
@@ -738,7 +730,7 @@
         <location filename="../../src/GLideNUI/configDialog.ui" line="2132"/>
         <location filename="../../src/GLideNUI/configDialog.ui" line="2142"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The N64 uses a unique method of calculating depth to the camera. When enabled, GlideN64 uses shaders to try to emulate these calculations correctly. Not compatible with anti-aliasing. &lt;span style=&quot; font-weight:600;&quot;&gt;Experimental!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Fast mode requires OpenGL 4.2 and &amp;quot;fragment shader interlock&amp;quot; extensions.&lt;/p&gt;&lt;p&gt;Compatible mode requires only core OpenGL 4.2 &lt;span style=&quot; font-weight:600;&quot;&gt;Can be slow!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[Recommended: &lt;span style=&quot; font-style:italic;&quot;&gt;Sometimes checked, for several games&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;N64 använder en unik metod för att beräkna djupet till kameran. När den är aktiverad använder GlideN64 shaders för att försöka emulera dessa beräkningar korrekt. Inte kompatibel med anti-aliasing. &lt;span style=&quot; font-weight:600;&quot;&gt;Experimentell!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Snabbt läge kräver OpenGL 4.2 och &amp;quot;fragment shader interlock&amp;quot;-tillägg.&lt;/p&gt;&lt;p&gt;Kompatibelt läge kräver endast OpenGL 4.2 &lt;span style=&quot; font-weight:600;&quot;&gt;Kan vara långsamt!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[Rekommenderas: &lt;span style=&quot; font-style:italic;&quot;&gt;Ibland kontrollerat, för flera spel&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;N64 använder en unik metod för att beräkna djupet till kameran. När den är aktiverad använder GlideN64 shaders för att försöka emulera dessa beräkningar korrekt. Inte kompatibel med kantutjämning. &lt;span style=&quot; font-weight:600;&quot;&gt;Experimentell!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Snabbt läge kräver OpenGL 4.2 och &amp;quot;fragment shader interlock&amp;quot;-tillägg.&lt;/p&gt;&lt;p&gt;Kompatibelt läge kräver endast OpenGL 4.2 &lt;span style=&quot; font-weight:600;&quot;&gt;Kan vara långsamt!&lt;/span&gt;&lt;/p&gt;&lt;p&gt;[Rekommenderas: &lt;span style=&quot; font-style:italic;&quot;&gt;Ibland kontrollerat, för flera spel&lt;/span&gt;]&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../src/GLideNUI/configDialog.ui" line="2135"/>
